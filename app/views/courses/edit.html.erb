@@ -1,0 +1,24 @@
+<h1>編輯課程</h1>
+<%= form_for @course do |f|%>
+<div>
+coursename
+	<%=f.text_field :coursename %>
+</div>
+<div>
+time
+	<%=f.text_field :time %>
+</div>
+<div>
+teacher
+	<%=f.text_field :teacher %>
+</div>
+<div>
+classroom
+	<%=f.text_field :courseroom %>
+</div>
+<div>
+credit
+	<%=f.text_field :grade %>
+</div>
+<%=f.submit%>
+<%end%>
